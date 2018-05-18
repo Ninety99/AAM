@@ -76,6 +76,7 @@ public class AAMUtils implements Listener {
 				public void run() {
 					time.put(player, time.get(player) - 1);
 					if (time.get(player) == 0) {
+						checkedPlayers.remove(player);
 						time.remove(player);
 						task.remove(player);
 						cancel();
