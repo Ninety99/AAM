@@ -1,0 +1,10 @@
+name: AAM
+main: me.NinetyNine.aam.AAM
+author: NinetyNine
+version: 1.0
+description: An anti-auto armor hack.
+commands:
+  aam:
+    usage: /<command> (player)
+    description: Checks a player.
+    permission: gcbanz.ban
